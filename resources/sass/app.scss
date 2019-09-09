@@ -1,5 +1,11 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 // Variables
 @import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
 
 
 // Fontawesome
@@ -14,7 +20,7 @@
 body {
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
   font-size: 14px;
-}		
+}
 
 /* header */
 
@@ -27,8 +33,6 @@ body {
   margin-bottom: 40px;
   margin-top: 0px;
 }
-
-
 /* Sticky footer styles */
 html {
   position: relative;
